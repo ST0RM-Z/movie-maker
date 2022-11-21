@@ -12,7 +12,8 @@ const resolvers = {
         let movie = new Movie({
             name: args.name,
             genre: args.genre,
-            year: args.year
+            year: args.year,
+            image: args.image
         })
         // to save inside mongodb server 
         movie.save()
